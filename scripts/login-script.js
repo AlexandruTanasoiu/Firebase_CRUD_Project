@@ -50,7 +50,7 @@ loginBtnElement.addEventListener("click", () => {
   signInWithEmailAndPassword(authService, emailCredentials, passCredentials)
     .then((userSigned) => {
       console.log("Usersigned", userSigned.user);
-      window.location.href = "homepage.html";
+      window.location.href = "index.html";
     })
     .catch((error) => {
       console.log(`Error code: ${error.code}`);
