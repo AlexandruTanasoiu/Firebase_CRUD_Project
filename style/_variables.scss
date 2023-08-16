@@ -1,0 +1,36 @@
+  @mixin flexcoll {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,500;0,700;1,700&family=Play:wght@400;700&display=swap');
+
+  // homepage variables
+  $home_bg: url('../Assets/Homepage_background.jpg');
+  $color_bg_card: rgba(122, 216, 244, 0.85);
+  $color_btn: rgb(102, 61, 198);
+  $color_sdw_btn: rgba(31, 63, 110, 1.000);
+  $color_text: rgb(38, 4, 103);
+  $color_title: rgba(122, 216, 244, 1);
+  $color_hover_btn: rgba(91, 47, 195, 0.9);
+  $color_bg_target: rgb(67, 52, 144);
+  $color_bg_profile: rgba(67, 52, 144, 1);
+
+  // login page variables
+  $login_bg_image: url(../Assets/Login_background.jpg);
+  $color_bg_login: rgba(0, 69, 149, 0.800);
+  $color_bg_sdw_login: rgba(59, 184, 249, 1.000);
+  $color_text_login: rgba(255, 202, 33, 1.000);
+  $color_btn_login: rgba(140, 64, 208, 1.000);
+  $color_btn_hover_login: rgb(88, 28, 141);
+
+  // signup page variables
+  $signup_bg_image: url(../Assets/signup_bg_image.jpg);
+  $color_bg_form: rgba(4,40,71,0.95);
+  $color_title_signup: rgb(99, 226, 202);
+  $color_title_sdw_signup: rgb(227, 40, 37);
+  $color_bg_btn_signup: rgba(8, 80, 143, 0.95);
+  $color_hover_btn_signup:rgba(45, 126, 196, 0.95);

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Firebase Project</title>
+    <link rel="stylesheet" href="./style/style_homepage.css" />
+    <link rel="icon" href="./Assets/favicon.ico" />
+  </head>
+
+  <body>
+    <section class="main__container-homepage">
+      <nav class="navbar__container">
+        <button class="navbar__container-meniu">Meniu</button>
+        <ul class="navbar__container-ul">
+          <li class="navbar__container-btn">
+            <a href="#" class="navbar__container-links">Add target</a>
+          </li>
+          <li class="navbar__container-btn">
+            <a href="#" class="navbar__container-links">Profile</a>
+          </li>
+          <li class="navbar__container-btn">
+            <a href="#" class="navbar__container-links">Target list</a>
+          </li>
+          <li class="navbar__container-btn">
+            <a href="./login_page.html" id="logoutBtn" class="navbar__container-links"
+              >Logout</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="list__container">
+        <div class="list__container-top">
+          <h1 class="list__container-title">Expense colector</h1>
+          <div class="list__container-profile"></div>
+          <h2 class="list__container-name">Alexandru Tanasoiu</h2>
+        </div>
+        <div class="target__container">
+          <div class="user-profile-container">
+            <!-- Firstname header -->
+            <h2></h2>
+            <input class="action-icon-input" type="text" />
+            <img class="action-icon-edit" src="./Assets/edit_icon.png" alt="" />
+            <!-- Lastname header -->
+            <h2></h2>
+            <input class="action-icon-input" type="text" /><img
+              class="action-icon-edit"
+              src="./Assets/edit_icon.png"
+              alt=""
+            />
+            <!-- Username header -->
+            <h2></h2>
+            <input class="action-icon-input" type="text" /><img
+              class="action-icon-edit"
+              src="./Assets/edit_icon.png"
+              alt=""
+            />
+            <!-- Skills header -->
+            <h2></h2>
+            <input class="action-icon-input" type="text" />
+            <img class="action-icon-edit" src="./Assets/edit_icon.png" alt="" />
+            <!-- Description header -->
+            <h2></h2>
+            <textarea class="action-icon-input" type="text"> </textarea
+            ><img
+              class="action-icon-edit"
+              src="./Assets/edit_icon.png"
+              alt=""
+            />
+          </div>
+          <!-- <h1 class="target__title">Title</h1>
+                <label for="prerequeText" class="target__label">Prerequesite</label>
+                <textarea class="target__textarea" name="prerequeText" id="prerequeText" cols="30" rows="10"></textarea>
+                <label class="target__label" for="targetText">Targets</label>
+                <textarea name="targetText" id="targetText" cols="30" rows="10"></textarea>
+                <button class="target__btn">Delete</button>
+                <button class="target__btn">Edit</button> -->
+        </div>
+      </div>
+    </section>
+    <script type="module" src="./scripts/script.js"></script>
+  </body>
+</html>

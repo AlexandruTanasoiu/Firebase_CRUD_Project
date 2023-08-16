@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style_signup.css" />
+    <link rel="icon" href="./Assets/favicon.ico" />
+    <title>Sign Up</title>
+  </head>
+
+  <body>
+    <section class="main__container-signup">
+      <h1 class="main__container-signup-title">Register your account</h1>
+      <form class="form__container" action="#">
+        <label class="form__container-label" for="fnameInput">Firstname</label>
+        <input
+          class="form__container-input"
+          type="text"
+          name="fnameInput"
+          id="fnameInput"
+        />
+        <label class="form__container-label" for="lnameInput">Lastname</label>
+        <input
+          class="form__container-input"
+          type="text"
+          name="lnameInput"
+          id="lnameInput"
+        />
+        <label class="form__container-label" for="emailInput">Email</label>
+        <input
+          class="form__container-input"
+          type="text"
+          name="emailInput"
+          id="emailInput"
+        />
+        <label class="form__container-label" for="usernameInput"
+          >Username</label
+        >
+        <input
+          class="form__container-input"
+          type="text"
+          name="usernameInput"
+          id="usernameInput"
+        />
+        <label class="form__container-label" for="passwordInput"
+          >Password</label
+        >
+        <input
+          class="form__container-input"
+          type="password"
+          name="passwordInput"
+          id="passwordInput"
+        />
+        <label class="form__container-label" for="confirmPassword"
+          >Confirm Password</label
+        >
+        <input
+          class="form__container-input"
+          type="text"
+          name="confirmPassword"
+          id="confirmPassword"
+        />
+        <div class="checkbox__container">
+          <h2 class="checkbox__container-title">Known pragramming skills:</h2>
+          <label class="checkbox__container-label" for="JavaScript"
+            >JavaScript</label
+          >
+          <input
+            class="checkbox__container-input"
+            type="checkbox"
+            name="JavaScript"
+            id="JavaScript"
+            value="JavaScript"
+          />
+          <label class="checkbox__container-label" for="Cplus">C++</label>
+          <input
+            class="checkbox__container-input"
+            type="checkbox"
+            name="Cplus"
+            id="Cplus"
+            value="Cplus"
+          />
+          <label class="checkbox__container-label" for="Python">Python</label>
+          <input
+            class="checkbox__container-input"
+            type="checkbox"
+            name="Python"
+            id="Python"
+            value="Python"
+          />
+          <label class="checkbox__container-label" for="Java">Java</label>
+          <input
+            class="checkbox__container-input"
+            type="checkbox"
+            name="Java"
+            id="Java"
+            value="Java"
+          />
+          <label class="checkbox__container-label" for="Reacts">Reacts</label>
+          <input
+            class="checkbox__container-input"
+            type="checkbox"
+            name="Reacts"
+            id="Reacts"
+            value="Reacts"
+          />
+          <label class="checkbox__container-label" for="Flutter">Flutter</label>
+          <input
+            class="checkbox__container-input"
+            type="checkbox"
+            name="Flutter"
+            id="Flutter"
+            value="Flutter"
+          />
+          <label class="checkbox__container-label" for="Angular">Angular</label>
+          <input
+            class="checkbox__container-input"
+            type="checkbox"
+            name="Angular"
+            id="Angular"
+            value="Angular"
+          />
+        </div>
+        <button class="form__container-btn" id="signUpBtn">Sign Up</button>
+        <button
+          class="form__container-btn"
+          formaction="login_page.html"
+          id="loginBtn"
+        >
+          Login
+        </button>
+      </form>
+    </section>
+    <script type="module" src="./scripts/signup-script.js"></script>
+  </body>
+</html>
